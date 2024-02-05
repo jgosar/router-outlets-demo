@@ -1,11 +1,14 @@
 import { ChangeDetectionStrategy, Component } from "@angular/core";
+import {RouterOutlet} from "@angular/router";
 
 @Component({
-  selector: 'fsss-home-view',
-  templateUrl: './home.view.html',
-  styleUrls: ['./home.view.less'],
+  templateUrl: './slots.view.html',
+  styleUrls: ['./slots.view.less'],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [
+    RouterOutlet
+  ],
   standalone: true
 })
-export class HomeView {
+export class SlotsView {
 }
