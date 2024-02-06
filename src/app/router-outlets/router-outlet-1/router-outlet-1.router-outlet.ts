@@ -6,7 +6,8 @@ import {
 
 @Component({
   templateUrl: './router-outlet-1.router-outlet.html',
-  encapsulation: ViewEncapsulation.None,
+  styleUrls: ['./router-outlet-1.router-outlet.less'],
+  encapsulation: ViewEncapsulation.ShadowDom,
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true
 })
