@@ -4,6 +4,7 @@
     <a routerLink="/">Home</a>
     <a routerLink="/firstPage">First page</a>
     <a routerLink="/secondPage">Second page</a>
+    <a [routerLink]="['', { outlets: { modal: ['exampleModal'] } }]">Modal dialog</a>
   </nav>
 </div>
 <div class="app__body">
@@ -12,3 +13,5 @@
 <div class="app__footer">
   This is the footer
 </div>
+
+<router-outlet name="modal"></router-outlet>
