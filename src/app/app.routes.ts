@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
 import {HomeView} from "./views/home/home.view";
 import {SlotsView} from "./views/slots/slots.view";
-import { RouterOutlet1Component} from "./router-outlets/router-outlet-1/router-outlet-1.component";
-import { RouterOutlet2Component} from "./router-outlets/router-outlet-2/router-outlet-2.component";
-import {ExampleModalComponent} from "./router-outlets/example-modal/example-modal.component";
+import { RouterOutlet1Component} from "./components/router-outlet-1/router-outlet-1.component";
+import { RouterOutlet2Component} from "./components/router-outlet-2/router-outlet-2.component";
+import {ExampleModalComponent} from "./components/example-modal/example-modal.component";
 
 export const routes: Routes = [
   { path: '', component: HomeView },
