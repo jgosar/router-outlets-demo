@@ -2,6 +2,8 @@
 
 This project shows 3 ways of using router-outlets in Angular.
 
+Live version: https://stackblitz.com/github/jgosar/router-outlets-demo
+
 ## 1. Basic Router Outlet
 This is the most basic way of using `router-outlet`. It is used to show one component in the main part of the layout based on the URL.
 An example is in `src/app/app.component.html`, where it is simply added as `<router-outlet />`.
